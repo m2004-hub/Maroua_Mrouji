@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="data.js"></script>
+    <script src="Backend.js"></script>
+</head>
+<body>
+    <div>
+        <nav>
+            <img src="" alt="">
+            <ul>
+                <li><a href="acceuil.html">My Blogs</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+     </div>
+    <h1>Login</h1>
+    <table>
+        <tr>
+            <td>username:</td>
+            <td><input type="text" name="username" id="username"/></td>
+        </tr>
+        <tr>
+            <td>password:</td>
+            <td><input type="password" name="pass" id="pass"/></td>
+        </tr>
+        <tr>
+            <td><button type="button" id="login" >Login</button></td>
+        </tr>
+    </table>
+    
+
+<script >
+     let btn=document.querySelector('#login');
+     btn.addEventListener('click',function(){
+        let username=document.querySelector('#username').value;
+        let pass=document.querySelector('#pass').value;
+        Login(username,pass);
+     })
+</script>
+</body>
+</html>

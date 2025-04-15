@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="data.js"></script>
+    <script src="Backend.js"></script>
+</head>
+<body>
+    <div>
+        <nav>
+            <img src="" alt="">
+            <ul>
+                <li><a href="acceuil.html">My Blogs</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+     </div>
+    <div>
+        <h3>Your Post</h3>
+        <table>
+            <tr>
+                <td><input type="text" name="title" id="title" placeholder="your title"/></td>
+            </tr>
+            <tr>
+                <td><textarea name="desc" id="desc" cols="80" rows="10">
+                    Your description
+                 </textarea></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="post">post</button></td>
+            </tr>
+        </table>
+       
+        
+         
+    </div>
+    <script >
+     let btn=document.querySelector("#post");
+     btn.addEventListener("click",function(){
+        let title=document.querySelector('#title').value;
+        let desc=document.querySelector("#desc").value;
+        AjouterPost(title,desc);
+     })
+    </script>
+</body>
+</html>

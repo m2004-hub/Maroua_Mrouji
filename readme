@@ -1,0 +1,76 @@
+# atelier2
+
+
+
+# 🚀 Mini-Projet JavaScript - Exercice POO, DOM et Structures
+
+## 📚 Description
+
+Ce projet regroupe *5 exercices JavaScript* illustrant différentes notions fondamentales : la manipulation de collections (Array, Set, Map), la programmation orientée objet (POO), la gestion du DOM via une mini-application de blog, ainsi que l'héritage de classes pour simuler des cas réels (vecteurs, formes géométriques, étudiants, voitures…).
+
+---
+
+## 📁 Contenu des exercices
+
+---
+
+### 5️⃣ Exercice 1 : Voitures - Héritage et tri
+- Modèle orienté objet avec une classe Voiture et deux sous-classes Hyndai et Ford.
+- Tri des voitures par année.
+- Définition de propriétés propres à chaque marque.
+
+📄 Fichier : ex1.html ex1.js
+
+---
+
+### 4️⃣ Exercice 2 : Gestion d’étudiants et professeur
+- Objet Professeur et tableau d’objets Étudiants avec méthodes.
+- Tri des étudiants par nom, prénom, puis âge.
+
+📄 Fichier : ex2.html ex2.js
+
+---
+
+### 3️⃣ Exercice 3 : POO - Vecteurs, Carrés, Rectangles, Segments
+- Création de classes Vecteur2D, Rectangle, Carre, Point, Segment.
+- Héritage (Carre hérite de Rectangle).
+- Calcul de surface, addition de vecteurs, affichage structuré.
+
+📄 Fichier : ex3.html et ex3.js
+
+---
+
+### 2️⃣ Exercice 4 : Mini blog en HTML/JS
+- Application multiple-page de blog (type CRUD très simplifié).
+- Gestion des utilisateurs (sign up / login) avec data.js .
+- Ajout, affichage  des posts.
+
+📄 Fichier :folder blog_app
+
+---
+
+### 1️⃣ Exercice 5 : Gestion de mangas avec Array, Set et Map
+- Manipulation d’un tableau de livres : push, pop, shift, unshift.
+- Gestion de catégories uniques avec Set.
+- Système de prêts de mangas via Map.
+
+📄 Fichier : ex5.js
+
+---
+
+## ✅ Livrable
+
+Le livrable contient :
+- L’ensemble des fichiers .js et .html
+- Ce fichier README.md en guise de *mini-rapport explicatif*
+- Le projet est importé sur GitLab
+
+---
+
+## 📌 Auteurs
+
+- 👩‍💻 maroua mrouji
+- 📚 Mini-projet JavaScript dans le cadre de l’apprentissage de la POO et la manipulation du DOM en JS ES6
+
+---
+
